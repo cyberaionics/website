@@ -1,7 +1,11 @@
 const items = [
+  'Cybersecurity',
+  '◆',
   'Post-Quantum Cryptography',
   '◆',
   'ICPC Regionalist',
+  '◆',
+  'Finance Systems',
   '◆',
   'Morris AI',
   '◆',
@@ -14,11 +18,7 @@ const items = [
   'IIT Dharwad',
   '◆',
   'JEE 99%iler',
-  '◆',
-  'Cybersecurity',
-  '◆',
-  'Finance Systems',
-  '◆',
+  '◆'
 ];
 
 export default function Marquee() {

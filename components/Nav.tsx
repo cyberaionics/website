@@ -4,12 +4,12 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 
 const links = [
-  { href: '/about', label: 'about' },
-  { href: '/skills', label: 'skills' },
-  { href: '/projects', label: 'projects' },
-  { href: '/achievements', label: 'achievements' },
-  { href: '/blog', label: 'blog' },
-  { href: '/contact', label: 'contact' },
+  { href: '/about', label: 'About Me' },
+  { href: '/skills', label: 'Skills' },
+  { href: '/projects', label: 'Projects' },
+  { href: '/achievements', label: 'Achievements' },
+  { href: '/blog', label: 'Blog' },
+  { href: '/contact', label: 'Contact' },
 ];
 
 export default function Nav() {
@@ -40,7 +40,7 @@ export default function Nav() {
             letterSpacing: '-0.02em',
           }}
         >
-          ~/ankush-tarafdar
+          Ankush Tarafdar
         </Link>
 
         {/* Links */}

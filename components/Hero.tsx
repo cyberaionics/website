@@ -121,7 +121,7 @@ export default function Hero() {
           maxWidth: 640,
         }}
       >
-        Post-Quantum Cryptography · Agentic AI · Quantum Algorithms · Cybersecurity · Finance Systems
+        · Cybersecurity · Post-Quantum Cryptography · Agentic AI · Quantum Algorithms · Finance Systems
       </p>
 
       {/* Bio */}
@@ -138,9 +138,9 @@ export default function Hero() {
         }}
       >
         Building at the intersection of{' '}
-        <span style={{ color: '#888' }}>quantum theory</span>,{' '}
-        <span style={{ color: '#888' }}>cryptographic systems</span>, and{' '}
-        <span style={{ color: '#888' }}>agentic AI</span>. First year,{' '}
+        <span style={{ color: '#888' }}>Quantum Theory</span>,{' '}
+        <span style={{ color: '#888' }}>Cryptographic Systems</span>, and{' '}
+        <span style={{ color: '#888' }}>Agentic AI</span>. First year,{' '}
         <span style={{ color: '#888' }}>IIT Dharwad</span>.
       </p>
 
@@ -176,7 +176,7 @@ export default function Hero() {
         }}
       >
         {[
-          { value: '9+', label: 'Projects' },
+          { value: '10+', label: 'Projects' },
           { value: '7', label: 'Achievements' },
           { value: 'ICPC', label: 'Regionalist' },
           { value: 'PQC+AI', label: 'Focus Areas' },

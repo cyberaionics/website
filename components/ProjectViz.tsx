@@ -103,6 +103,7 @@ function RingLWEViz() {
         </div>
         <div style={{ marginTop: 8, fontFamily: 'IBM Plex Mono', fontSize: 12, color: 'var(--text-ghost)' }}>
           q = 3329 (Kyber) · n = 256 · σ = 3.19
+          a tight reduction analysis and concrete parameter instantiation fo a Module-LWE based Key Encapsulation Mechanism instantiated with Kyber-512 parameters (n, q, k) = (256, 3329, 2). We derive explicit advantage bounds, compute decryption failure probabilities using subgaussian tail analysis, and quantify security in terms of concrete adversarial resources.
         </div>
       </div>
     </div>
