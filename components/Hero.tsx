@@ -156,13 +156,13 @@ export default function Hero() {
         }}
       >
         <Link href="/projects" className="btn-green">
-          ./view-projects
+          View Projects
         </Link>
         <Link href="/about" className="btn-ghost-green">
-          ./research
+          Research
         </Link>
         <Link href="/contact" className="btn-ghost-gray">
-          ./contact
+          Contact
         </Link>
       </div>
 
