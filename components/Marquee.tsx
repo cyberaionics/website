@@ -1,6 +1,8 @@
 const items = [
   'Cybersecurity',
   '◆',
+  'Large Language Models',
+  '◆',
   'Post-Quantum Cryptography',
   '◆',
   'ICPC Regionalist',

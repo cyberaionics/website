@@ -48,7 +48,7 @@ export default function Hero() {
       <p
         style={{
           fontFamily: 'IBM Plex Mono, monospace',
-          fontSize: 11,
+          fontSize: 16,
           fontWeight: 400,
           color: 'var(--text-muted)',
           letterSpacing: '0.1em',
@@ -103,7 +103,7 @@ export default function Hero() {
               letterSpacing: '-0.03em',
             }}
           >
-            // builder.
+            Tech Enthusiast.
           </span>
         </span>
       </h1>
@@ -112,7 +112,7 @@ export default function Hero() {
       <p
         style={{
           fontFamily: 'IBM Plex Mono, monospace',
-          fontSize: 13,
+          fontSize: 16,
           fontWeight: 400,
           color: 'var(--text-muted)',
           letterSpacing: '0.04em',
@@ -121,14 +121,14 @@ export default function Hero() {
           maxWidth: 640,
         }}
       >
-        · Cybersecurity · Post-Quantum Cryptography · Agentic AI · Quantum Algorithms · Finance Systems
+        · Cybersecurity · Large Language Models · Post-Quantum Cryptography · Agentic AI · Quantum Algorithms · Finance Systems
       </p>
 
       {/* Bio */}
       <p
         style={{
           fontFamily: 'IBM Plex Mono, monospace',
-          fontSize: 13,
+          fontSize: 16,
           fontWeight: 300,
           color: 'var(--text-muted)',
           lineHeight: 1.7,
@@ -139,6 +139,7 @@ export default function Hero() {
       >
         Building at the intersection of{' '}
         <span style={{ color: '#888' }}>Quantum Theory</span>,{' '}
+        <span style={{ color: '#888' }}>Large Language Models</span>,{' '}
         <span style={{ color: '#888' }}>Cryptographic Systems</span>, and{' '}
         <span style={{ color: '#888' }}>Agentic AI</span>. First year,{' '}
         <span style={{ color: '#888' }}>IIT Dharwad</span>.
@@ -177,7 +178,7 @@ export default function Hero() {
       >
         {[
           { value: '10+', label: 'Projects' },
-          { value: '7', label: 'Achievements' },
+          { value: '7+', label: 'Achievements' },
           { value: 'ICPC', label: 'Regionalist' },
           { value: 'PQC+AI', label: 'Focus Areas' },
         ].map(({ value, label }) => (

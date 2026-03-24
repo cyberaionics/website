@@ -4,10 +4,11 @@ import './globals.css';
 export const metadata: Metadata = {
   title: 'Ankush Tarafdar — Mathematics & Computing, IIT Dharwad',
   description:
-    'Post-Quantum Cryptography · Agentic AI · Quantum Algorithms · Cybersecurity · Finance Systems. B.Tech Mathematics & Computing, IIT Dharwad (2025–2029).',
+    'Post-Quantum Cryptography  · Large Language Models · Agentic AI · Quantum Algorithms · Cybersecurity · Finance Systems. B.Tech Mathematics & Computing, IIT Dharwad (2025–2029).',
   keywords: [
     'Ankush Tarafdar',
     'IIT Dharwad',
+    'Large Language Models',
     'Post-Quantum Cryptography',
     'Agentic AI',
     'Quantum Computing',
@@ -16,7 +17,7 @@ export const metadata: Metadata = {
   authors: [{ name: 'Ankush Tarafdar' }],
   openGraph: {
     title: 'Ankush Tarafdar',
-    description: 'Post-Quantum Cryptography · Agentic AI · Quantum Algorithms',
+    description: 'Post-Quantum Cryptography · Large Language Models · Agentic AI · Quantum Algorithms',
     type: 'website',
     url: 'https://cyberaionics.github.io',
   },
