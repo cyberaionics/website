@@ -1,0 +1,39 @@
+2:I[6513,[],"ClientPageRoot"]
+3:I[5575,["291","static/chunks/291-08dfd5e3dd8dae0f.js","327","static/chunks/app/contact/page-f6a02de95ddc366a.js"],"default"]
+4:I[9275,[],""]
+5:I[1343,[],""]
+6:T511,
+              (function() {
+                const dot = document.getElementById('cursor-dot');
+                const ring = document.getElementById('cursor-ring');
+                let mouseX = 0, mouseY = 0;
+                let ringX = 0, ringY = 0;
+                
+                document.addEventListener('mousemove', function(e) {
+                  mouseX = e.clientX;
+                  mouseY = e.clientY;
+                  dot.style.left = mouseX + 'px';
+                  dot.style.top = mouseY + 'px';
+                });
+                
+                function animateRing() {
+                  ringX += (mouseX - ringX) * 0.15;
+                  ringY += (mouseY - ringY) * 0.15;
+                  ring.style.left = ringX + 'px';
+                  ring.style.top = ringY + 'px';
+                  requestAnimationFrame(animateRing);
+                }
+                animateRing();
+                
+                document.addEventListener('mouseleave', function() {
+                  dot.style.opacity = '0';
+                  ring.style.opacity = '0';
+                });
+                document.addEventListener('mouseenter', function() {
+                  dot.style.opacity = '1';
+                  ring.style.opacity = '1';
+                });
+              })();
+            0:["w93T-EwsR5h52fzDW4M-E",[[["",{"children":["contact",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],["",{"children":["contact",{"children":["__PAGE__",{},[["$L1",["$","$L2",null,{"props":{"params":{},"searchParams":{}},"Component":"$3"}]],null],null]},["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","contact","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}],null]},[["$","html",null,{"lang":"en","children":[["$","head",null,{"children":[["$","link",null,{"rel":"icon","href":"/favicon.svg","type":"image/svg+xml"}],["$","link",null,{"rel":"stylesheet","href":"https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.css","crossOrigin":"anonymous"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":"anonymous"}],["$","link",null,{"href":"https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&display=swap","rel":"stylesheet"}]]}],["$","body",null,{"children":[["$","div",null,{"id":"cursor-dot"}],["$","div",null,{"id":"cursor-ring"}],["$","script",null,{"dangerouslySetInnerHTML":{"__html":"$6"}}],["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[],"styles":null}]]}]]}],null],null],[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/b5b36835841465bb.css","precedence":"next","crossOrigin":"$undefined"}]],[null,"$L7"]]]]]
+7:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"Ankush Tarafdar — Mathematics & Computing, IIT Dharwad"}],["$","meta","3",{"name":"description","content":"Post-Quantum Cryptography  · Large Language Models · Agentic AI · Quantum Algorithms · Cybersecurity · Finance Systems. B.Tech Mathematics & Computing, IIT Dharwad (2025–2029)."}],["$","meta","4",{"name":"author","content":"Ankush Tarafdar"}],["$","meta","5",{"name":"keywords","content":"Ankush Tarafdar,IIT Dharwad,Large Language Models,Post-Quantum Cryptography,Agentic AI,Quantum Computing,Cybersecurity"}],["$","meta","6",{"property":"og:title","content":"Ankush Tarafdar"}],["$","meta","7",{"property":"og:description","content":"Post-Quantum Cryptography · Large Language Models · Agentic AI · Quantum Algorithms"}],["$","meta","8",{"property":"og:url","content":"https://cyberaionics.github.io/"}],["$","meta","9",{"property":"og:type","content":"website"}],["$","meta","10",{"name":"twitter:card","content":"summary"}],["$","meta","11",{"name":"twitter:title","content":"Ankush Tarafdar"}],["$","meta","12",{"name":"twitter:description","content":"Post-Quantum Cryptography · Large Language Models · Agentic AI · Quantum Algorithms"}]]
+1:null
